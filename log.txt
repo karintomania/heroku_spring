@@ -1,100 +1,100 @@
-2019-10-31T14:47:52.377651+00:00 app[web.1]: at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.0.RELEASE.jar!/:5.2.0.RELEASE]
-2019-10-31T14:47:52.377653+00:00 app[web.1]: at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.2.0.RELEASE.jar!/:5.2.0.RELEASE]
-2019-10-31T14:47:52.377656+00:00 app[web.1]: at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888) ~[spring-webmvc-5.2.0.RELEASE.jar!/:5.2.0.RELEASE]
-2019-10-31T14:47:52.377658+00:00 app[web.1]: at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.0.RELEASE.jar!/:5.2.0.RELEASE]
-2019-10-31T14:47:52.37766+00:00 app[web.1]: at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.0.RELEASE.jar!/:5.2.0.RELEASE]
-2019-10-31T14:47:52.377662+00:00 app[web.1]: at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.0.RELEASE.jar!/:5.2.0.RELEASE]
-2019-10-31T14:47:52.377664+00:00 app[web.1]: at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.0.RELEASE.jar!/:5.2.0.RELEASE]
-2019-10-31T14:47:52.377666+00:00 app[web.1]: at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.0.RELEASE.jar!/:5.2.0.RELEASE]
-2019-10-31T14:47:52.377668+00:00 app[web.1]: at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.0.RELEASE.jar!/:5.2.0.RELEASE]
-2019-10-31T14:47:52.37767+00:00 app[web.1]: at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.27.jar!/:9.0.27]
-2019-10-31T14:47:52.377673+00:00 app[web.1]: at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.0.RELEASE.jar!/:5.2.0.RELEASE]
-2019-10-31T14:47:52.377675+00:00 app[web.1]: at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.27.jar!/:9.0.27]
-2019-10-31T14:47:52.377677+00:00 app[web.1]: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.27.jar!/:9.0.27]
-2019-10-31T14:47:52.377679+00:00 app[web.1]: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar!/:9.0.27]
-2019-10-31T14:47:52.377681+00:00 app[web.1]: at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.27.jar!/:9.0.27]
-2019-10-31T14:47:52.377683+00:00 app[web.1]: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar!/:9.0.27]
-2019-10-31T14:47:52.377685+00:00 app[web.1]: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar!/:9.0.27]
-2019-10-31T14:47:52.377687+00:00 app[web.1]: at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.0.RELEASE.jar!/:5.2.0.RELEASE]
-2019-10-31T14:47:52.377689+00:00 app[web.1]: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.0.RELEASE.jar!/:5.2.0.RELEASE]
-2019-10-31T14:47:52.377691+00:00 app[web.1]: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar!/:9.0.27]
-2019-10-31T14:47:52.377693+00:00 app[web.1]: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar!/:9.0.27]
-2019-10-31T14:47:52.377695+00:00 app[web.1]: at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.0.RELEASE.jar!/:5.2.0.RELEASE]
-2019-10-31T14:47:52.377697+00:00 app[web.1]: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.0.RELEASE.jar!/:5.2.0.RELEASE]
-2019-10-31T14:47:52.377705+00:00 app[web.1]: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar!/:9.0.27]
-2019-10-31T14:47:52.377707+00:00 app[web.1]: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar!/:9.0.27]
-2019-10-31T14:47:52.377716+00:00 app[web.1]: at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.0.RELEASE.jar!/:5.2.0.RELEASE]
-2019-10-31T14:47:52.377718+00:00 app[web.1]: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.0.RELEASE.jar!/:5.2.0.RELEASE]
-2019-10-31T14:47:52.37772+00:00 app[web.1]: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar!/:9.0.27]
-2019-10-31T14:47:52.377722+00:00 app[web.1]: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar!/:9.0.27]
-2019-10-31T14:47:52.377724+00:00 app[web.1]: at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.27.jar!/:9.0.27]
-2019-10-31T14:47:52.377726+00:00 app[web.1]: at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.27.jar!/:9.0.27]
-2019-10-31T14:47:52.377728+00:00 app[web.1]: at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) [tomcat-embed-core-9.0.27.jar!/:9.0.27]
-2019-10-31T14:47:52.37773+00:00 app[web.1]: at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.27.jar!/:9.0.27]
-2019-10-31T14:47:52.377732+00:00 app[web.1]: at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.27.jar!/:9.0.27]
-2019-10-31T14:47:52.377734+00:00 app[web.1]: at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.27.jar!/:9.0.27]
-2019-10-31T14:47:52.377736+00:00 app[web.1]: at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:747) [tomcat-embed-core-9.0.27.jar!/:9.0.27]
-2019-10-31T14:47:52.377738+00:00 app[web.1]: at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.27.jar!/:9.0.27]
-2019-10-31T14:47:52.37774+00:00 app[web.1]: at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.27.jar!/:9.0.27]
-2019-10-31T14:47:52.377742+00:00 app[web.1]: at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.27.jar!/:9.0.27]
-2019-10-31T14:47:52.377744+00:00 app[web.1]: at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) [tomcat-embed-core-9.0.27.jar!/:9.0.27]
-2019-10-31T14:47:52.377746+00:00 app[web.1]: at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579) [tomcat-embed-core-9.0.27.jar!/:9.0.27]
-2019-10-31T14:47:52.377748+00:00 app[web.1]: at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.27.jar!/:9.0.27]
-2019-10-31T14:47:52.37775+00:00 app[web.1]: at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_222-heroku]
-2019-10-31T14:47:52.377752+00:00 app[web.1]: at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_222-heroku]
-2019-10-31T14:47:52.377754+00:00 app[web.1]: at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.27.jar!/:9.0.27]
-2019-10-31T14:47:52.377756+00:00 app[web.1]: at java.lang.Thread.run(Thread.java:748) [na:1.8.0_222-heroku]
-2019-10-31T14:47:52.377758+00:00 app[web.1]: 
-2019-10-31T14:47:58.635353+00:00 heroku[web.1]: Restarting
-2019-10-31T14:47:58.663445+00:00 heroku[web.1]: State changed from up to starting
-2019-10-31T14:47:58.390543+00:00 app[api]: Deploy 17774bba by user reporttalentfaith@yahoo.co.jp
-2019-10-31T14:47:52.610375+00:00 heroku[router]: at=info method=GET path="/" host=creepy-tomb-85171.herokuapp.com request_id=4133402a-59a5-4fd6-b7d9-d6e4e3921020 fwd="77.98.199.129" dyno=web.1 connect=0ms service=472ms status=500 bytes=588 protocol=https
-2019-10-31T14:47:59.850349+00:00 app[web.1]: 2019-10-31 14:47:59.850  INFO 4 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-10-31T14:47:59.856202+00:00 app[web.1]: 2019-10-31 14:47:59.855  INFO 4 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2019-10-31T14:47:59.868471+00:00 app[web.1]: 2019-10-31 14:47:59.868  INFO 4 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-10-31T14:47:59.910873+00:00 app[web.1]: 2019-10-31 14:47:59.910  INFO 4 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-10-31T14:47:58.390543+00:00 app[api]: Release v8 created by user reporttalentfaith@yahoo.co.jp
-2019-10-31T14:47:59.788192+00:00 heroku[web.1]: Stopping all processes with SIGTERM
-2019-10-31T14:48:03.772908+00:00 app[web.1]: Create a Procfile to customize the command used to run this process: https://devcenter.heroku.com/articles/procfile
-2019-10-31T14:48:03.803196+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
-2019-10-31T14:48:03.806773+00:00 app[web.1]: Picked up JAVA_TOOL_OPTIONS: -Xmx300m -Xss512k -XX:CICompilerCount=2 -Dfile.encoding=UTF-8
-2019-10-31T14:48:00.025383+00:00 heroku[web.1]: Process exited with status 143
-2019-10-31T14:48:01.938475+00:00 heroku[web.1]: Starting process with command `java -Dserver.port=4742 $JAVA_OPTS -jar build/libs/*.jar`
-2019-10-31T14:48:06.84157+00:00 app[web.1]: 2019-10-31 14:48:06.839  INFO 4 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-10-31T14:48:06.943853+00:00 app[web.1]: 2019-10-31 14:48:06.943  INFO 4 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89ms. Found 1 repository interfaces.
-2019-10-31T14:48:08.078665+00:00 app[web.1]: 2019-10-31 14:48:08.078  INFO 4 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4742 (http)
-2019-10-31T14:48:08.09873+00:00 app[web.1]: 2019-10-31 14:48:08.098  INFO 4 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-10-31T14:48:08.098934+00:00 app[web.1]: 2019-10-31 14:48:08.098  INFO 4 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2019-10-31T14:48:08.208972+00:00 app[web.1]: 2019-10-31 14:48:08.208  INFO 4 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-10-31T14:48:08.209149+00:00 app[web.1]: 2019-10-31 14:48:08.209  INFO 4 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2612 ms
-2019-10-31T14:48:08.431645+00:00 app[web.1]: 2019-10-31 14:48:08.431  INFO 4 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-10-31T14:48:09.449492+00:00 app[web.1]: 2019-10-31 14:48:09.449  INFO 4 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2019-10-31T14:48:09.673059+00:00 app[web.1]: 2019-10-31 14:48:09.672  INFO 4 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-2019-10-31T14:48:07.639816+00:00 app[web.1]: 2019-10-31 14:48:07.639  INFO 4 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-10-31T14:48:10.784798+00:00 app[web.1]: 2019-10-31 14:48:10.784  INFO 4 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2019-10-31T14:48:10.7975+00:00 app[web.1]: 2019-10-31 14:48:10.797  INFO 4 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-10-31T14:48:11.742371+00:00 app[web.1]: 2019-10-31 14:48:11.742  WARN 4 --- [           main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
-2019-10-31T14:48:11.91779+00:00 app[web.1]: 2019-10-31 14:48:11.917  INFO 4 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4742 (http) with context path ''
-2019-10-31T14:48:11.921144+00:00 app[web.1]: 2019-10-31 14:48:11.920  INFO 4 --- [           main] c.example.heroku_spring.DemoApplication  : Started DemoApplication in 7.319 seconds (JVM running for 8.114)
-2019-10-31T14:48:08.969982+00:00 app[web.1]: 2019-10-31 14:48:08.969  INFO 4 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-10-31T14:48:09.059747+00:00 app[web.1]: 2019-10-31 14:48:09.059  INFO 4 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2019-10-31T14:48:09.181515+00:00 app[web.1]: 2019-10-31 14:48:09.181  INFO 4 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
-2019-10-31T14:48:11+00:00 app[api]: Build succeeded
-2019-10-31T14:48:12.099065+00:00 heroku[web.1]: State changed from starting to up
-2019-10-31T14:48:11.319948+00:00 app[web.1]: 2019-10-31 14:48:11.319  WARN 4 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-10-31T14:48:11.504428+00:00 app[web.1]: 2019-10-31 14:48:11.504  INFO 4 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-10-31T14:48:05.209042+00:00 app[web.1]: 
-2019-10-31T14:48:05.20908+00:00 app[web.1]: .   ____          _            __ _ _
-2019-10-31T14:48:05.209152+00:00 app[web.1]: /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
-2019-10-31T14:48:05.209278+00:00 app[web.1]: ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
-2019-10-31T14:48:05.209366+00:00 app[web.1]: \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
-2019-10-31T14:48:05.209453+00:00 app[web.1]: '  |____| .__|_| |_|_| |_\__, | / / / /
-2019-10-31T14:48:05.209542+00:00 app[web.1]: =========|_|==============|___/=/_/_/_/
-2019-10-31T14:48:05.211479+00:00 app[web.1]: :: Spring Boot ::        (v2.2.0.RELEASE)
-2019-10-31T14:48:05.211539+00:00 app[web.1]: 
-2019-10-31T14:48:05.446749+00:00 app[web.1]: 2019-10-31 14:48:05.440  INFO 4 --- [           main] c.example.heroku_spring.DemoApplication  : Starting DemoApplication on d5da3e32-14cf-4833-a64d-c0466576f4fd with PID 4 (/app/build/libs/heroku_spring-0.0.1-SNAPSHOT.jar started by u15241 in /app)
-2019-10-31T14:48:05.448314+00:00 app[web.1]: 2019-10-31 14:48:05.448  INFO 4 --- [           main] c.example.heroku_spring.DemoApplication  : No active profile set, falling back to default profiles: default
-2019-10-31T14:48:22.374357+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=creepy-tomb-85171.herokuapp.com request_id=ea7c1bf1-900a-4f86-be47-d63d638719ce fwd="77.98.199.129" dyno= connect= service= status=503 bytes= protocol=https
-2019-10-31T14:48:20.615646+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=creepy-tomb-85171.herokuapp.com request_id=2f8a272f-d5f1-4e38-b34e-7e4bcf4672e0 fwd="77.98.199.129" dyno= connect= service= status=503 bytes= protocol=https
-2019-10-31T14:48:23.186682+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=creepy-tomb-85171.herokuapp.com request_id=5ec53dcc-b36d-4228-bb10-46d94eea571c fwd="77.98.199.129" dyno= connect= service= status=503 bytes= protocol=https
-2019-10-31T14:48:31.118213+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=creepy-tomb-85171.herokuapp.com request_id=029fedea-6422-4a8f-b825-d9eabac5f3b6 fwd="77.98.199.129" dyno= connect= service= status=503 bytes= protocol=https
+2019-10-31T15:04:21.009169+00:00 app[web.1]: 2019-10-31 15:04:21.008  INFO 4 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-10-31T15:04:29.247488+00:00 app[web.1]: 2019-10-31 15:04:29.245  INFO 4 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-31T15:04:29.328064+00:00 app[web.1]: 2019-10-31 15:04:29.327  INFO 4 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69ms. Found 1 repository interfaces.
+2019-10-31T15:04:29.842923+00:00 app[web.1]: 2019-10-31 15:04:29.842  INFO 4 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-31T15:04:28.110055+00:00 app[web.1]: 
+2019-10-31T15:04:28.110103+00:00 app[web.1]: .   ____          _            __ _ _
+2019-10-31T15:04:28.110108+00:00 app[web.1]: /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2019-10-31T15:04:28.110171+00:00 app[web.1]: ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2019-10-31T15:04:28.110229+00:00 app[web.1]: \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2019-10-31T15:04:28.110289+00:00 app[web.1]: '  |____| .__|_| |_|_| |_\__, | / / / /
+2019-10-31T15:04:28.110348+00:00 app[web.1]: =========|_|==============|___/=/_/_/_/
+2019-10-31T15:04:28.112135+00:00 app[web.1]: :: Spring Boot ::        (v2.2.0.RELEASE)
+2019-10-31T15:04:28.112173+00:00 app[web.1]: 
+2019-10-31T15:04:28.28128+00:00 app[web.1]: 2019-10-31 15:04:28.276  INFO 4 --- [           main] c.example.heroku_spring.DemoApplication  : Starting DemoApplication on 16c97356-f1ea-4aef-8ea0-7b0e71152143 with PID 4 (/app/build/libs/heroku_spring-0.0.1-SNAPSHOT.jar started by u49329 in /app)
+2019-10-31T15:04:28.28317+00:00 app[web.1]: 2019-10-31 15:04:28.282  INFO 4 --- [           main] c.example.heroku_spring.DemoApplication  : No active profile set, falling back to default profiles: default
+2019-10-31T15:04:31.150169+00:00 app[web.1]: 2019-10-31 15:04:31.149  INFO 4 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-31T15:04:31.223305+00:00 app[web.1]: 2019-10-31 15:04:31.223  INFO 4 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-10-31T15:04:31.341437+00:00 app[web.1]: 2019-10-31 15:04:31.341  INFO 4 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2019-10-31T15:04:26.864965+00:00 app[web.1]: Create a Procfile to customize the command used to run this process: https://devcenter.heroku.com/articles/procfile
+2019-10-31T15:04:26.887484+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
+2019-10-31T15:04:26.891217+00:00 app[web.1]: Picked up JAVA_TOOL_OPTIONS: -Xmx300m -Xss512k -XX:CICompilerCount=2 -Dfile.encoding=UTF-8
+2019-10-31T15:04:30.692971+00:00 app[web.1]: 2019-10-31 15:04:30.692  INFO 4 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-31T15:04:31.605577+00:00 app[web.1]: 2019-10-31 15:04:31.605  INFO 4 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-10-31T15:04:31.827151+00:00 app[web.1]: 2019-10-31 15:04:31.826  INFO 4 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2019-10-31T15:04:34.129857+00:00 app[web.1]: 2019-10-31 15:04:34.129  WARN 4 --- [           main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-10-31T15:04:34.279213+00:00 app[web.1]: 2019-10-31 15:04:34.278  INFO 4 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 5029 (http) with context path ''
+2019-10-31T15:04:34.281774+00:00 app[web.1]: 2019-10-31 15:04:34.281  INFO 4 --- [           main] c.example.heroku_spring.DemoApplication  : Started DemoApplication in 6.691 seconds (JVM running for 7.39)
+2019-10-31T15:04:30.334864+00:00 app[web.1]: 2019-10-31 15:04:30.334  INFO 4 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 5029 (http)
+2019-10-31T15:04:30.353635+00:00 app[web.1]: 2019-10-31 15:04:30.353  INFO 4 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-31T15:04:30.353838+00:00 app[web.1]: 2019-10-31 15:04:30.353  INFO 4 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-31T15:04:30.462861+00:00 app[web.1]: 2019-10-31 15:04:30.462  INFO 4 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-31T15:04:30.463063+00:00 app[web.1]: 2019-10-31 15:04:30.462  INFO 4 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2063 ms
+2019-10-31T15:04:33.655346+00:00 app[web.1]: 2019-10-31 15:04:33.654  WARN 4 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-31T15:04:33.886905+00:00 app[web.1]: 2019-10-31 15:04:33.886  INFO 4 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-31T15:04:31+00:00 app[api]: Build succeeded
+2019-10-31T15:04:33.018059+00:00 app[web.1]: 2019-10-31 15:04:33.017  INFO 4 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-10-31T15:04:33.030263+00:00 app[web.1]: 2019-10-31 15:04:33.030  INFO 4 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-31T15:04:34.549904+00:00 heroku[web.1]: State changed from starting to up
+2019-10-31T15:04:32.388974+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=creepy-tomb-85171.herokuapp.com request_id=8faf3c63-87a3-450e-8f9c-a15ed21b424c fwd="77.98.199.129" dyno= connect= service= status=503 bytes= protocol=https
+2019-10-31T15:04:44.573285+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=creepy-tomb-85171.herokuapp.com request_id=db7003cf-9dd2-4275-b3d1-f85d3550fff0 fwd="77.98.199.129" dyno= connect= service= status=503 bytes= protocol=https
+2019-10-31T15:04:46.466421+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=creepy-tomb-85171.herokuapp.com request_id=71052f55-1fff-46d3-9408-127b708362c1 fwd="77.98.199.129" dyno= connect= service= status=503 bytes= protocol=https
+2019-10-31T15:05:34+00:00 app[api]: Build started by user reporttalentfaith@yahoo.co.jp
+2019-10-31T15:06:03.079311+00:00 app[api]: Deploy 44efc10c by user reporttalentfaith@yahoo.co.jp
+2019-10-31T15:06:03.830724+00:00 heroku[web.1]: Restarting
+2019-10-31T15:06:03.891365+00:00 heroku[web.1]: State changed from up to starting
+2019-10-31T15:06:05.211412+00:00 heroku[web.1]: Process exited with status 143
+2019-10-31T15:06:03.079311+00:00 app[api]: Release v11 created by user reporttalentfaith@yahoo.co.jp
+2019-10-31T15:06:09.799339+00:00 heroku[web.1]: Starting process with command `java -Dserver.port=42468 $JAVA_OPTS -jar build/libs/*.jar`
+2019-10-31T15:06:05.067052+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2019-10-31T15:06:05.096747+00:00 app[web.1]: 2019-10-31 15:06:05.096  INFO 4 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-31T15:06:05.097776+00:00 app[web.1]: 2019-10-31 15:06:05.097  INFO 4 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-31T15:06:05.102088+00:00 app[web.1]: 2019-10-31 15:06:05.101  INFO 4 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-31T15:06:05.119304+00:00 app[web.1]: 2019-10-31 15:06:05.118  INFO 4 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-10-31T15:06:16+00:00 app[api]: Build succeeded
+2019-10-31T15:06:12.628423+00:00 app[web.1]: Create a Procfile to customize the command used to run this process: https://devcenter.heroku.com/articles/procfile
+2019-10-31T15:06:12.813318+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
+2019-10-31T15:06:12.818932+00:00 app[web.1]: Picked up JAVA_TOOL_OPTIONS: -Xmx300m -Xss512k -XX:CICompilerCount=2 -Dfile.encoding=UTF-8
+2019-10-31T15:06:25.02173+00:00 app[web.1]: 2019-10-31 15:06:24.863  INFO 4 --- [           main] c.example.heroku_spring.DemoApplication  : Starting DemoApplication on ca423062-26c5-479e-a031-88197fba60bd with PID 4 (/app/build/libs/heroku_spring-0.0.1-SNAPSHOT.jar started by u53091 in /app)
+2019-10-31T15:06:25.09462+00:00 app[web.1]: 2019-10-31 15:06:25.060  INFO 4 --- [           main] c.example.heroku_spring.DemoApplication  : No active profile set, falling back to default profiles: default
+2019-10-31T15:06:27.216133+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=creepy-tomb-85171.herokuapp.com request_id=8775c331-aaa5-4d79-a7b3-ed6e6aa047a6 fwd="77.98.199.129" dyno= connect= service= status=503 bytes= protocol=https
+2019-10-31T15:06:33.86206+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=creepy-tomb-85171.herokuapp.com request_id=277a1b0a-4693-480a-b011-0f2386853523 fwd="77.98.199.129" dyno= connect= service= status=503 bytes= protocol=https
+2019-10-31T15:06:22.64025+00:00 app[web.1]: 
+2019-10-31T15:06:22.640308+00:00 app[web.1]: .   ____          _            __ _ _
+2019-10-31T15:06:22.656033+00:00 app[web.1]: /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2019-10-31T15:06:22.656381+00:00 app[web.1]: ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2019-10-31T15:06:22.65712+00:00 app[web.1]: \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2019-10-31T15:06:22.657784+00:00 app[web.1]: '  |____| .__|_| |_|_| |_\__, | / / / /
+2019-10-31T15:06:22.658428+00:00 app[web.1]: =========|_|==============|___/=/_/_/_/
+2019-10-31T15:06:22.684954+00:00 app[web.1]: :: Spring Boot ::        (v2.2.0.RELEASE)
+2019-10-31T15:06:22.685152+00:00 app[web.1]: 
+2019-10-31T15:06:42.962398+00:00 app[web.1]: 2019-10-31 15:06:42.951  INFO 4 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 766ms. Found 1 repository interfaces.
+2019-10-31T15:06:43+00:00 app[api]: Build started by user reporttalentfaith@yahoo.co.jp
+2019-10-31T15:06:42.050164+00:00 app[web.1]: 2019-10-31 15:06:42.033  INFO 4 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-31T15:06:47.308137+00:00 app[web.1]: 2019-10-31 15:06:47.307  INFO 4 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-31T15:06:50.216323+00:00 app[web.1]: 2019-10-31 15:06:50.216  INFO 4 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 42468 (http)
+2019-10-31T15:06:50.32148+00:00 app[web.1]: 2019-10-31 15:06:50.321  INFO 4 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-31T15:06:50.321869+00:00 app[web.1]: 2019-10-31 15:06:50.321  INFO 4 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-31T15:06:51.21049+00:00 app[web.1]: 2019-10-31 15:06:51.210  INFO 4 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-31T15:06:51.210691+00:00 app[web.1]: 2019-10-31 15:06:51.210  INFO 4 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 23990 ms
+2019-10-31T15:06:52.941218+00:00 app[web.1]: 2019-10-31 15:06:52.940  INFO 4 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-10-31T15:06:54.269011+00:00 app[web.1]: 2019-10-31 15:06:54.268  INFO 4 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2019-10-31T15:06:56.950078+00:00 app[web.1]: 2019-10-31 15:06:56.949  INFO 4 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-10-31T15:06:57.66157+00:00 app[web.1]: 2019-10-31 15:06:57.661  INFO 4 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-31T15:06:59.968716+00:00 app[web.1]: 2019-10-31 15:06:59.968  INFO 4 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-31T15:07:00.112301+00:00 app[web.1]: 2019-10-31 15:07:00.112  INFO 4 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2019-10-31T15:07:08.69643+00:00 app[web.1]: 2019-10-31 15:07:08.695  INFO 4 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-10-31T15:07:08.759376+00:00 app[web.1]: 2019-10-31 15:07:08.755  INFO 4 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-31T15:07:07.329953+00:00 app[web.1]: 2019-10-31 15:07:07.325  WARN 4 --- [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2019-10-31T15:07:07.333162+00:00 app[web.1]: 2019-10-31 15:07:07.332  WARN 4 --- [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "customer" does not exist, skipping
+2019-10-31T15:07:07.339515+00:00 app[web.1]: 2019-10-31 15:07:07.337  WARN 4 --- [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2019-10-31T15:07:07.342409+00:00 app[web.1]: 2019-10-31 15:07:07.342  WARN 4 --- [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "hibernate_sequence" does not exist, skipping
+2019-10-31T15:07:12.629802+00:00 app[web.1]: 2019-10-31 15:07:12.629  WARN 4 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-31T15:07:13.579093+00:00 app[api]: Deploy b312aa27 by user reporttalentfaith@yahoo.co.jp
+2019-10-31T15:07:13.712427+00:00 app[web.1]: 2019-10-31 15:07:13.712  INFO 4 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-31T15:07:15.809686+00:00 app[web.1]: 2019-10-31 15:07:15.809  WARN 4 --- [           main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-10-31T15:07:13.579093+00:00 app[api]: Release v12 created by user reporttalentfaith@yahoo.co.jp
+2019-10-31T15:07:17.104062+00:00 app[web.1]: 2019-10-31 15:07:17.103  INFO 4 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 42468 (http) with context path ''
+2019-10-31T15:07:17.167702+00:00 app[web.1]: 2019-10-31 15:07:17.141  INFO 4 --- [           main] c.example.heroku_spring.DemoApplication  : Started DemoApplication in 59.95 seconds (JVM running for 64.323)
+2019-10-31T15:07:17.240206+00:00 heroku[web.1]: State changed from starting to up
+2019-10-31T15:07:26+00:00 app[api]: Build succeeded
