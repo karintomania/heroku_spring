@@ -13,21 +13,25 @@ public class HelloController {
 
 	@Autowired CustomerRepository cr;
 	
-    @RequestMapping("/")
-    public String index() {
-		String result = "";
+    // @RequestMapping("/")
+    // public String index() {
+	// 	String result = "";
 
-		Customer cstm = new Customer("aaa", "first");
-		cr.save(cstm);
+	// 	Customer cstm = new Customer("aaa", "first");
+	// 	cr.save(cstm);
 
-		Iterable<Customer> cstmList = cr.findAll();
-		for(Customer c: cstmList){
-			result += Long.toString(c.getId());
-			result += "; ";
-		}
-        return "Hello"+result+"!!";
-	}
+	// 	Iterable<Customer> cstmList = cr.findAll();
+	// 	for(Customer c: cstmList){
+	// 		result += Long.toString(c.getId());
+	// 		result += "; ";
+	// 	}
+    //     return "Hello"+result+"!!";
+	// }
 	
 
+    @RequestMapping("/")
+    public String index() {
+		return "Hello";
+	}
 
 }
