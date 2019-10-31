@@ -1,0 +1,12 @@
+version: "3"
+services:
+  psql_docker:
+    build: .
+    image: psql_docker
+    container_name: psql_docker
+    ports:
+      - "5432:5432"
+    environment:
+       POSTGRES_USER: "dev"
+       POSTGRES_PASSWORD: "dev"
+       POSTGRES_DB: "mydb"
