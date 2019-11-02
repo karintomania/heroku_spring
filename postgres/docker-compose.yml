@@ -1,8 +1,7 @@
 version: "3"
 services:
   psql_docker:
-    build: .
-    image: psql_docker
+    image: postgres:12.0-alpine
     container_name: psql_docker
     ports:
       - "5432:5432"

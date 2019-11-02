@@ -1,31 +1,29 @@
 package com.example.heroku_spring.controller;
 
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
 
 import com.example.heroku_spring.entity.Customer;
 import com.example.heroku_spring.repository.CustomerRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
-@RestController
+@Controller
 public class HelloController {
 
 	@Autowired CustomerRepository cr;
 
-    @RequestMapping("/")
-    public String index() {
-		String result = "";
+	@RequestMapping("/")
+    public ModelAndView index() {
+		ModelAndView mav = new ModelAndView();
 
-		Customer cstm = new Customer("aaa", "first");
-		cr.save(cstm);
-
-		Iterable<Customer> cstmList = cr.findAll();
-		for(Customer c: cstmList){
-			result += Long.toString(c.getId());
-			result += "; ";
-		}
-        return "Hello"+result+"!!";
+		Iterable<Customer> customerList = cr.findAll();
+		mav.addObject("customerList", customerList);
+		mav.setViewName("customerList");
+        return mav;
 	}
 	
 
